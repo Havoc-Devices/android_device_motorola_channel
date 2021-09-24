@@ -56,5 +56,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# System props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # inherit from the proprietary version
 include vendor/motorola/channel/BoardConfigVendor.mk
