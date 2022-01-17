@@ -25,7 +25,7 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_DEVICE := channel
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := havoc_channel
